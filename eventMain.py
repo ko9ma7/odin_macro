@@ -1,18 +1,18 @@
 
 import random
 import time
-import ClickPos
+import MousePos
 import Mouse
 import Item
 import Dungeon
 
 def changeCharactor(select_charactor): # 캐릭 변경
-    Mouse.delayClick(ClickPos.menu_mouse_pos)
-    Mouse.delayClick(ClickPos.change_charactor_mouse_pos)
-    Mouse.delayClick(ClickPos.ok_btn_mouse_pos)
+    Mouse.delayClick(MousePos.menu_mouse_pos)
+    Mouse.delayClick(MousePos.change_charactor_mouse_pos)
+    Mouse.delayClick(MousePos.ok_btn_mouse_pos)
     time.sleep(random.randrange(40, 60))
     Mouse.delayClick(select_charactor)
-    Mouse.delayClick(ClickPos.start_game_mouse_pos)
+    Mouse.delayClick(MousePos.start_game_mouse_pos)
     time.sleep(random.randrange(50, 70))
 
 select_charactor1_mouse_pos = [random.randrange(1644, 1875), random.randrange(94, 166)]
@@ -33,9 +33,9 @@ def cycle(money_dungeon_select_floor, exp_dungeon_select_floor, event_dungeon_se
         Item.takeOut()
         Item.wearing()
 
-    Dungeon.dungeonAuto(ClickPos.money_dungeon_mouse_pos, money_dungeon_select_floor)
-    Dungeon.dungeonAuto(ClickPos.exp_dungeon_mouse_pos, exp_dungeon_select_floor)
-    Dungeon.dungeonAuto(ClickPos.event_dungeon_mouse_pos, event_dungeon_select_floor)
+    Dungeon.dungeonAuto(MousePos.money_dungeon_mouse_pos, money_dungeon_select_floor)
+    Dungeon.dungeonAuto(MousePos.exp_dungeon_mouse_pos, exp_dungeon_select_floor)
+    Dungeon.dungeonAuto(MousePos.event_dungeon_mouse_pos, event_dungeon_select_floor)
 
     Item.unequip()
     changeCharactor(select_charactor)

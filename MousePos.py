@@ -1,7 +1,7 @@
 import random
 
 # 클릭 좌표
-teleport_mouse_pos = [random.randrange(1060, 1120), random.randrange(940, 1000)]
+teleport_mouse_pos = [random.randrange(1080, 1100), random.randrange(955, 990)]
 
 first_dungeon_mouse_pos = [random.randrange(40, 379), random.randrange(333, 730)]
 

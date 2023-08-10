@@ -1,13 +1,13 @@
 import random
 import time
 import Mouse
-import ClickPos
+import MousePos
 
 def wearing(): # 장비 입기
-    Mouse.delayClick(ClickPos.bag_mouse_pos)
+    Mouse.delayClick(MousePos.bag_mouse_pos)
     time.sleep(2)
-    Mouse.delayClick(ClickPos.unequip_mouse_pos)
-    Mouse.delayClick(ClickPos.esc_mouse_pos)
+    Mouse.delayClick(MousePos.unequip_mouse_pos)
+    Mouse.delayClick(MousePos.esc_mouse_pos)
     
 
 
@@ -34,7 +34,7 @@ def takeOut(): # 장비 꺼내기
 
     seventeen_mouse_pos = [random.randrange(26, 96), random.randrange(605, 676)]
 
-    Mouse.click(ClickPos.storage_mouse_pos)
+    Mouse.click(MousePos.storage_mouse_pos)
     time.sleep(15)
 
     Mouse.click(one_mouse_pos)
@@ -55,8 +55,8 @@ def takeOut(): # 장비 꺼내기
     Mouse.click(sixteen_mouse_pos)
     Mouse.click(seventeen_mouse_pos)
 
-    Mouse.delayClick(ClickPos.take_out_mouse_pos)
-    Mouse.delayClick(ClickPos.esc_mouse_pos)
+    Mouse.delayClick(MousePos.take_out_mouse_pos)
+    Mouse.delayClick(MousePos.esc_mouse_pos)
 
 
 def unequip(): # 장비 창고 넣기
@@ -78,13 +78,13 @@ def unequip(): # 장비 창고 넣기
     sixteen_mouse_pos = [random.randrange(1466, 1539), random.randrange(428, 496)]
     seventeen_mouse_pos = [random.randrange(1556, 1620), random.randrange(428, 496)]
 
-    Mouse.delayClick(ClickPos.bag_mouse_pos)
+    Mouse.delayClick(MousePos.bag_mouse_pos)
     time.sleep(2)
-    Mouse.delayClick(ClickPos.unequip_mouse_pos)
+    Mouse.delayClick(MousePos.unequip_mouse_pos)
     time.sleep(2)
-    Mouse.delayClick(ClickPos.esc_mouse_pos)
+    Mouse.delayClick(MousePos.esc_mouse_pos)
     time.sleep(2)
-    Mouse.click(ClickPos.storage_mouse_pos)
+    Mouse.click(MousePos.storage_mouse_pos)
     time.sleep(2)
 
     Mouse.click(one_mouse_pos)
@@ -105,7 +105,7 @@ def unequip(): # 장비 창고 넣기
     Mouse.click(sixteen_mouse_pos)
     Mouse.click(seventeen_mouse_pos)
 
-    Mouse.delayClick(ClickPos.keep_mouse_pos)
-    Mouse.delayClick(ClickPos.esc_mouse_pos)
+    Mouse.delayClick(MousePos.keep_mouse_pos)
+    Mouse.delayClick(MousePos.esc_mouse_pos)
 
 
