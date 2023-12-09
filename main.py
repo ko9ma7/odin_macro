@@ -43,10 +43,9 @@ def cycle(money_dungeon_select_floor, exp_dungeon_select_floor, select_charactor
 
 def main():
     # cycle(dungeon_6th_mouse_pos, dungeon_6th_mouse_pos, select_charactor2_mouse_pos)
-
     cycle(dungeon_6th_mouse_pos, dungeon_6th_mouse_pos, select_charactor3_mouse_pos)
-    cycle(dungeon_5th_mouse_pos, dungeon_5th_mouse_pos, select_charactor4_mouse_pos)
-    cycle(dungeon_5th_mouse_pos, dungeon_5th_mouse_pos, select_charactor5_mouse_pos)
-    cycle(dungeon_5th_mouse_pos, dungeon_5th_mouse_pos, select_charactor1_mouse_pos)
+    cycle(dungeon_6th_mouse_pos, dungeon_6th_mouse_pos, select_charactor4_mouse_pos)
+    cycle(dungeon_6th_mouse_pos, dungeon_6th_mouse_pos, select_charactor5_mouse_pos)
+    cycle(dungeon_6th_mouse_pos, dungeon_6th_mouse_pos, select_charactor1_mouse_pos)
 
 main()

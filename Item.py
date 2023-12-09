@@ -33,6 +33,8 @@ def takeOut(): # 장비 꺼내기
     sixteen_mouse_pos = [random.randrange(291, 360), random.randrange(523, 586)]
 
     seventeen_mouse_pos = [random.randrange(26, 96), random.randrange(605, 676)]
+    eighteen_mouse_pos = [random.randrange(116, 186), random.randrange(605, 676)]
+    nineteen_mouse_post = [random.randrange(205, 274), random.randrange(605, 676)]
 
     Mouse.click(MousePos.storage_mouse_pos)
     time.sleep(15)
@@ -54,6 +56,8 @@ def takeOut(): # 장비 꺼내기
     Mouse.click(fifteen_mouse_pos)
     Mouse.click(sixteen_mouse_pos)
     Mouse.click(seventeen_mouse_pos)
+    Mouse.click(eighteen_mouse_pos)
+    Mouse.click(nineteen_mouse_post)
 
     Mouse.delayClick(MousePos.take_out_mouse_pos)
     Mouse.delayClick(MousePos.esc_mouse_pos)
@@ -77,6 +81,8 @@ def unequip(): # 장비 창고 넣기
     fifteen_mouse_pos = [random.randrange(1824, 1893), random.randrange(341, 408)]
     sixteen_mouse_pos = [random.randrange(1466, 1539), random.randrange(428, 496)]
     seventeen_mouse_pos = [random.randrange(1556, 1620), random.randrange(428, 496)]
+    eighteen_mouse_pos = [random.randrange(1650, 1700), random.randrange(428, 496)]
+    nineteen_mouse_post = [random.randrange(1737, 1800), random.randrange(428, 496)]
 
     Mouse.delayClick(MousePos.bag_mouse_pos)
     time.sleep(2)
@@ -104,7 +110,8 @@ def unequip(): # 장비 창고 넣기
     Mouse.click(fifteen_mouse_pos)
     Mouse.click(sixteen_mouse_pos)
     Mouse.click(seventeen_mouse_pos)
-
+    Mouse.click(eighteen_mouse_pos)
+    Mouse.click(nineteen_mouse_post)
     Mouse.delayClick(MousePos.keep_mouse_pos)
     Mouse.delayClick(MousePos.esc_mouse_pos)
 
