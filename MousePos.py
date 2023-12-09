@@ -5,9 +5,9 @@ teleport_mouse_pos = [random.randrange(1080, 1100), random.randrange(955, 990)]
 
 first_dungeon_mouse_pos = [random.randrange(40, 379), random.randrange(333, 730)]
 
-third_dungeon_mouse_pos = [random.randrange(833, 1175), random.randrange(330, 730)]
-fourth_dungeon_mouse_pos = [random.randrange(1229, 1585), random.randrange(330, 730)]
-fifth_dungeon_mouse_pos = [random.randrange(1633, 1879), random.randrange(330, 730)]
+third_dungeon_mouse_pos = [random.randrange(836, 1175), random.randrange(388, 600)] # 3번째 던전 공허
+fourth_dungeon_mouse_pos = [random.randrange(1229, 1585), random.randrange(388, 600)] # 4 번째 던전 난쟁이
+fifth_dungeon_mouse_pos = [random.randrange(1633, 1879), random.randrange(388, 600)]
 
 menu_mouse_pos = [random.randrange(1850, 1890), random.randrange(35, 68)]
 
